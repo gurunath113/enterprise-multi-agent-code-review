@@ -1,0 +1,33 @@
+{
+  "pullRequest": {
+    "owner": "airaamane",
+    "repo": "simple-todo-app",
+    "number": 1
+  },
+  "fileReviews": [],
+  "summary": {
+    "totalFiles": 0,
+    "overallScore": 0,
+    "criticalIssues": 0,
+    "highPriorityTests": 0,
+    "refactoringOpportunities": 0
+  },
+  "recommendations": [
+    {
+      "priority": "critical",
+      "category": "access-error",
+      "description": "Unable to access the pull request. The repository 'airaamane/simple-todo-app' was not found or is not accessible. This could be because: (1) The repository is private and requires authentication, (2) The repository does not exist, or (3) The repository name is incorrect. Please verify the repository exists and is accessible.",
+      "files": []
+    }
+  ],
+  "metadata": {
+    "analyzedAt": "2026-09-24T00:00:00Z",
+    "duration": 57369,
+    "agentVersions": {
+      "orchestrator": "1.0.0",
+      "code-quality-analyzer": "not-invoked",
+      "test-coverage-analyzer": "not-invoked",
+      "refactoring-suggester": "not-invoked"
+    }
+  }
+}
