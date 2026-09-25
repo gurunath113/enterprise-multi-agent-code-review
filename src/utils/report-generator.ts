@@ -229,9 +229,9 @@ ${formattedFiles || 'No file reviews available.'}
     )}_${report.pullRequest.number}`;
 
     const paths: GeneratedReportPaths = {
-      json: join(outputDirectory, `${baseName}.json`),
-      markdown: join(outputDirectory, `${baseName}.md`),
-      html: join(outputDirectory, `${baseName}.html`),
+      json: join(outputDirectory, 'report.json'),
+      markdown: join(outputDirectory, 'report.md'),
+      html: join(outputDirectory, 'report.html'),
     };
 
     Promise.all([

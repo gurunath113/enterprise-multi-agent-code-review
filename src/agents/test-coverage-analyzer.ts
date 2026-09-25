@@ -8,9 +8,9 @@ export const testCoverageAnalyzer: AgentDefinition = {
 
   prompt: testCoverageAnalyzerPrompt,
 
-  tools: ['Read', 'Grep', 'Glob'],
+  tools: ['Skill', 'Read', 'Grep', 'Glob'],
 
-  model: 'haiku',
+  model: 'inherit',
 
 
 };

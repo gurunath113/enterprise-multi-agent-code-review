@@ -85,9 +85,9 @@ function validateEnvironment(): void {
 }
 
 async function main(): Promise<void> {
-  validateEnvironment();
-
   const args = parseArgs(process.argv.slice(2));
+
+  validateEnvironment();
 
   console.log(
     `Starting code review for ${args.owner}/${args.repo}#${args.prNumber}...`

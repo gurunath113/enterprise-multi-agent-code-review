@@ -8,9 +8,9 @@ export const refactoringSuggester: AgentDefinition = {
 
   prompt: refactoringSuggesterPrompt,
 
-  tools: ['Read', 'Grep', 'Glob'],
+  tools: ['Skill', 'Read', 'Grep', 'Glob'],
 
-  model: 'haiku',
+  model: 'inherit',
 
 
 };
